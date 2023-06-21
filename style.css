@@ -1,0 +1,64 @@
+body{
+    background-image: url(img/background.jpg)
+}
+
+p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f12711 !important;
+}
+
+img {
+    border: solid 10px transparent;
+}
+
+.ri-sun-line{
+  font-size: 36px;
+}
+
+ul{
+    font-family: sans-serif;
+}
+
+h2{
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.img-animation{
+    max-height: 240px;
+    max-width: 240px;
+}
+
+.counter-number{
+    font-size: 60px;
+}
+
+.counter-item{
+    font-size: 40px;
+    
+}
+
+.accordion-button:focus{
+    color: #f12711 !important;
+    box-shadow: none;
+}
+
+.accordion-button:hover{
+    color: #f12711 !important;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #fff;
+}
+
+.app-icon i{
+    font-size: 60px;
+}
+
