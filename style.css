@@ -18,7 +18,7 @@ img {
     border: solid 10px transparent;
 }
 
-.ri-sun-line{
+.ri-s-line{
   font-size: 36px;
 }
 
@@ -62,3 +62,29 @@ h2{
     font-size: 60px;
 }
 
+.bg-row{
+    background-image: url(img/20135.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.bg-row p{
+    color: #fff;
+}
+
+.gallery-search-bar{
+    color: #fff;
+    font-family: 'Abril Fatface', cursive;
+    
+
+}
+
+.cat{
+    font-family: 'Abril Fatface', cursive;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.search-button:focus{
+box-shadow: 0 0 0 0.2rem #f12711 !important;
+}
