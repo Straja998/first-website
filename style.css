@@ -30,7 +30,12 @@ ul{
 
 h2{
     font-family: 'Work Sans', sans-serif;
+
     
+}
+
+h3{
+    font-family: 'Work Sans', sans-serif;
 }
 
 .img-animation{
@@ -96,7 +101,90 @@ box-shadow: 0 0 0 0.2rem #f12711 !important;
 }
 
 .swiper {
-    width: 600px;
-    height: 300px;
+    max-width: 800px;
+    height: 600px;
   }
-  
+
+.content {
+    background-color: white;
+    bottom: 30px;
+    right: 30px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 5px;
+    border: 1px solid black;
+}
+
+.content h3{
+    color: #c99912;
+}
+
+.img-swiper{
+        max-width: 100%;
+        height: 380px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color:#c99912 !important;
+}
+
+.i-ai{
+    position: relative;
+}
+
+.i-ai::before{
+    position: absolute;
+    content: url("icon/icon-ai.png");
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    left: -17%;
+    transform translatey:(-50%);
+}
+
+.i-id{
+    position: relative;
+}
+
+.i-id::before{
+    content: url("icon/icon-id.png");
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    left: -17%;
+    transform translatey:(-50%);
+    position: absolute;
+
+}
+
+.i-ps{
+    position: relative;
+}
+
+.i-ps::before{
+    content: url("icon/icon-ps.png");
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    left: -17%;
+    transform translatey:(-50%);
+    position: absolute;
+}
+
+.i-sk{
+    position: relative;
+}
+
+.i-sk::before{
+    content: url("icon/icon-sketch.png");
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    left: -35%;
+    transform translatey:(-50%);
+    position: absolute;
+}
