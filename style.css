@@ -1,5 +1,7 @@
 body{
-    background-image: url(img/background.jpg)
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    
 }
 
 p{
@@ -88,3 +90,13 @@ h2{
 .search-button:focus{
 box-shadow: 0 0 0 0.2rem #f12711 !important;
 }
+
+.fs-icon{
+    font-size: 24px;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+  
