@@ -33,7 +33,48 @@
                 <a class="nav-link" href="gallery.html">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <!-- Button trigger modal -->
+                <a href="#" type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#Modal">
+                  Contact us
+                </a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact us in form below</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="mb-3 d-flex gap-2 justify-content-center align-items-center">
+                            <label for="name" class="form-label"><i class="ri-pass-valid-line"></i></label>
+                            <input type="text" class="form-control" placeholder="Your name" id="name">
+                          </div>
+                          <div class="mb-3 d-flex gap-2 justify-content-center align-items-center">
+                            <label for="InputEmail1" class="form-label"><i class="ri-mail-line"></i></label>
+                            <input type="email" class="form-control" id="InputEmail1" placeholder="Your email adress" aria-describedby="emailHelp">
+                          </div>
+                          <div class="mb-3 d-flex gap-2 justify-content-center align-items-center">
+                              <label for="floatingTextarea2"><i class="ri-chat-1-line"></i></label>
+                              <textarea class="form-control msg-height" placeholder="Leave a message you'd like to ask us" id="floatingTextarea2""></textarea>
+                              
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="Check1">
+                            <label class="form-check-label" for="Check1">I agree and send</label>
+                          </div>
+                          
+                          <button type="submit" class="btn btn-primary">Send message</button>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li> 
             </ul>
           </div>
@@ -242,7 +283,7 @@
                   </div>
               </div>
               <!-- If we need pagination -->
-              <div class="swiper- pagination"></div>
+              <div class="swiper-pagination"></div>
         </div>
     </div>
     <footer>
@@ -268,6 +309,7 @@
           </div>
 
       </div>
+      
     </footer>
 
 

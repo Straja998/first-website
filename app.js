@@ -8,4 +8,7 @@ const swiper = new Swiper('.swiper', {
       clickable: true,
     },
   
+    autoplay: {
+      delay: 5000,
+  },
   });
